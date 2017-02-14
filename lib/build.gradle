@@ -1,0 +1,21 @@
+buildscript {
+    dependencies {
+        classpath "com.android.tools.build:gradle:2.2.0"
+    }
+}
+
+apply plugin: 'com.android.library'
+
+dependencies {
+    compile "com.android.support:appcompat-v4:25.1.0"
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.1"
+ 
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 25
+    }
+}
